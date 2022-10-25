@@ -1,7 +1,7 @@
 import { takeLatest, put, all, call } from 'redux-saga/effects';
 import axios from 'axios';
 import UserActionTypes from './User.types';
-import { displaySuccessToastify,displayFailureToastify, displaySignOutToastify } from '../../utils/utils';
+import { displaySuccessToastify,displayFailureToastify } from '../../utils/utils';
 import {
   signInSuccess,
   signInFailure,
@@ -44,7 +44,7 @@ export function* signInWithEmail({ payload: { username, password } }) {
 
 export function* signOut() {
   try {
-    displaySignOutToastify();
+    
     yield put(signOutSuccess());
   } catch (error) {
     yield put(signOutFailure(error));
