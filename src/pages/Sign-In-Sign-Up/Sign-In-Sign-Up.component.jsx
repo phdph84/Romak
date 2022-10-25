@@ -5,7 +5,6 @@ const SignInSignUp = () => {
   return (
     <SignInAndSignUpContainer>
       <SignIn />
-      <img src="../../assets/react-logo.png" alt="" />
     </SignInAndSignUpContainer>
   );
 };

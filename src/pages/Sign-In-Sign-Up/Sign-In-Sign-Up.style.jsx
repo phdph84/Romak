@@ -7,9 +7,8 @@ export const SignInAndSignUpContainer = styled.div`
   padding: 30px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  gap: 120px;
+  justify-content: center;
+
   margin: 70px auto;
   @media screen and (max-width: 800px) {
     flex-direction: column;

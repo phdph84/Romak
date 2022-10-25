@@ -7,6 +7,3 @@ export  const displayFailureToastify =()=>{
     toast.error("نام کاربری یا کلمه عبور صحیح نمی باشد.")
 }
 
-export  const displaySignOutToastify =()=>{
-    toast.done("کاربر با موفقیت از سیستم خارج شد.")
-}
