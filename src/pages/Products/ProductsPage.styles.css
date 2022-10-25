@@ -1,0 +1,32 @@
+.tableContainer{
+    margin: auto;
+    background: #fff;
+    width: 600px;
+   
+}
+
+.tableHeader{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.tableRow{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+.tableContainer{
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px 30px;
+}
+
+.tableRow:nth-child(even){
+    background: rgb(192, 200, 236);
+}

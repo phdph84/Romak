@@ -1,0 +1,32 @@
+.task3Container{
+    margin-bottom: 50px;
+}
+.headerTask3{
+   color :#0651b9;
+}
+.tableContainer{
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+
+}
+.tableHeader1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+}
+.tableBody{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+.tableBody:nth-child(even){
+    background: rgb(192, 200, 236);
+}

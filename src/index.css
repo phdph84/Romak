@@ -1,0 +1,17 @@
+@import "react-slideshow-image/dist/styles.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #1c1c22; */
+  background-color: rgb(227, 234, 243);
+  font-family: 'B Yekan+', 'B YekanB', 'tahoma' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
